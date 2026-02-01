@@ -49,9 +49,15 @@ blockquote {
 	border-color: var(--border);
 }
 
-code,
-pre {
+pre,
+pre code,
+.highlight,
+.highlighter-rouge .highlight {
 	background: var(--code-bg);
+}
+
+code {
+	background: transparent;
 }
 
 .highlight,
@@ -64,6 +70,12 @@ pre.highlight {
 :root[data-theme="dark"] pre,
 :root[data-theme="dark"] code {
 	color: #d4d4d4;
+}
+
+:root[data-theme="dark"] .highlight,
+:root[data-theme="dark"] .highlighter-rouge .highlight,
+:root[data-theme="dark"] pre {
+	background: var(--code-bg);
 }
 
 :root[data-theme="dark"] .highlight .c {
