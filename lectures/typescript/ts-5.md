@@ -4,7 +4,7 @@ title: "TypeScript — Лекция 5"
 
 # TypeScript — Лекция 5
 
-[Каталог](../README.md) · [Все лекции TypeScript](./README.md) · ← [Лекция 4](./ts-4.md) · [Лекция 6](./ts-6.md) →
+[Каталог](../README.md) · [Все лекции TypeScript](./README.md) · ← [Лекция 4](./ts-4.md)
 
 ---
 
